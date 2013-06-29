@@ -32,7 +32,7 @@ int main(){
 //        v.push_back(t);
 //    }
 
-    // 以非数据结尾即可
+    // end up with non-number
     vector<int> r( (istream_iterator<int>(cin)), (istream_iterator<int>()) );
 
 //    copy(r.begin(), r.end(), ostream_iterator<int>(cout, " "));
